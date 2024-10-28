@@ -1,0 +1,297 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+.ejercicio1{
+    background-color: blueviolet;
+    height: auto;
+    padding:60px;
+}
+
+.ejercicio1 .infocard{
+    padding: 20px;
+    margin: 500px;   
+    text-align: center;
+    background-color: white;
+    width:  500px;
+    height: auto;
+    border-radius: 15px;
+}
+.ejercicio1 .infocard img{
+    width: 365px ;
+    height: 345px;
+    margin: auto;
+    padding: 60px;
+}
+.ejercicio1 .infocard h2{
+    font-size: 50px;
+}
+
+.ejercicio1 .infocard p{
+    font-size: 25px;
+}
+
+.ejercicio1 .archivos{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+
+}
+
+.ejercicio1 .archivos p{
+    font-size: 25px;
+}
+
+.ejercicio1 .archivos .b1{
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.ejercicio2{
+    background-color: orange;
+    height: auto;
+    padding:60px;
+}
+
+.ejercicio2 .infocard{
+    padding: 20px;
+    margin: 450px;   
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    height: 800px;
+    width: 500px;
+}
+
+.ejercicio2 .infocard img{
+    width: 365px ;
+    height: 345px;
+}
+.ejercicio2 .infocard h2{
+    font-size: 50px;
+}
+
+.ejercicio2 .infocard p{
+    font-size: 25px;
+}
+
+.ejercicio2 .archivos{
+    text-align: center;
+    font-size: 10px;
+    padding: 25px;
+
+}
+
+
+.ejercicio2 .archivos .b1{
+    border: none;
+    padding: 13px 70px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: orange;
+    color: aliceblue;
+    box-shadow:0 6px 20px grey;
+}
+.ejercicio2 .lb ul li{
+    display: flex;
+    margin: 0 15px;
+}
+
+.ejercicio2 .lb ul li button{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border: 0;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+
+
+.ejercicio3{
+    background-color: white;
+    background-color: rgb(161, 29, 75);
+    height: auto;
+    padding:60px;
+}
+
+.ejercicio3 .infocard{
+    padding: 50px;
+    background-color: white;
+    margin: 150px;
+    text-align: center;
+    
+}
+
+.ejercicio3 .infocard img{
+    width: 365px ;
+    height: 345px;
+    
+}
+.ejercicio3 .infocard h2{
+    font-size: 50px;
+    
+
+}
+
+.ejercicio3 .infocard p{
+    font-size: 25px;
+    
+}
+
+.ejercicio3 .archivos{
+    text-align: center;
+    font-size: 10px;
+    padding: 35px;
+
+}
+
+
+.ejercicio3 .archivos .b1{
+    border: none;
+    padding: 15px 70px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 0px;
+    background-color: rgb(255, 145, 182);
+    color: aliceblue;
+}
+
+
+.ejercicio4{
+    background-color: white;
+    background-color: rgb(255, 253, 242);
+    height: auto;
+    padding:60px;
+    box-sizing: content-box;
+}
+
+.ejercicio4 .infocard{
+    padding: 50px;
+    background-color: white;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    border: 15px solid black;
+    
+}
+
+.ejercicio4 .infocard img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    bottom: 1000px;
+    
+}
+.ejercicio4 .infocard h2{
+    font-size: 50px;
+    float: inline-end;
+
+}
+
+.ejercicio4 .infocard p{
+    font-size: 25px;
+    
+    
+}
+
+.ejercicio4 .archivos{
+    text-align: center;
+    font-size: 10px;
+    padding: 35px;
+
+}
+
+
+.ejercicio4 .archivos .b1{
+    border: none;
+    padding: 15px 70px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 0px;
+    background-color: rgb(255, 145, 182);
+    color: aliceblue;
+}
+
+
+.ejercicio5{
+    background-color: rgb(163, 147, 116);
+    height: auto;
+    padding:60px;
+}
+
+.ejercicio5 .infocard{
+    padding: 20px;
+    margin: 350px;   
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    height: 800px;
+    width: 500px;
+}
+
+.ejercicio5 .infocard img{
+    width: 365px ;
+    height: 345px;
+}
+.ejercicio5 .infocard h2{
+    font-size: 50px;
+}
+
+.ejercicio5 .infocard p{
+    font-size: 25px;
+}
+
+.ejercicio5 .archivos{
+    text-align: center;
+    font-size: 10px;
+    padding: 25px;
+
+}
+
+
+.ejercicio5 .archivos .b1{
+    border: none;
+    padding: 13px 70px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: orange;
+    color: aliceblue;
+    box-shadow:0 6px 20px grey;
+}
+.ejercicio5 .lb ul li{
+    display: flex;
+    margin: 0 15px;
+}
+
+.ejercicio5 .lb ul li button{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border: 0;
+    border-radius: 50%;
+    text-indent: -9999px;
+}

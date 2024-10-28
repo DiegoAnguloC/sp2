@@ -1,0 +1,376 @@
+@font-face {
+    font-family: BigShouldersEB;
+    src: url('../fonts/BigShouldersStencilDisplay-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: Chapbook;
+    src: url('../fonts/Chapbook-Regular.otf');
+}
+
+@font-face {
+    font-family: ChildrenSans; /**/
+    src: url('../fonts/ChildrenSans.ttf');
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../imgs/bw2.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+    padding: 25px 0 40px;
+    
+    color: black;
+    font-family: BigShouldersEB,sans-serif;
+    font-size: 35px;
+}
+li{
+    display: flex;
+    margin: 0 75px;
+    padding: 0 0 10px 10px;
+}
+
+nav{
+    padding: 15px;
+    border: 2px solid blue;
+}
+
+ul{
+    justify-content: center;
+    padding: 15px 22px 15px 0;
+}
+
+nav>ul>h2{
+    color: white;
+    font-family: Rajdhani;
+    font-weight: bold;
+}
+nav>ul>li>a{
+    background: darkblue;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 0 2px;
+    color: pink;
+    font-size: 18px;
+    text-align: center;
+    font-family: Blogger Sans;
+    
+}
+nav ul li a:hover{
+	background: violet;
+    box-shadow: 0 0 33px violet;
+    color: blue;
+}
+footer{
+   
+    color: black;
+    border: 1px solid black;
+    margin: 50px;
+    text-align: center;
+}
+
+audio{
+    padding: 8px; 
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgb(111, 111, 111);
+    margin: 0 500px;
+    
+}
+
+p{
+    font-family: 'ChildrenSans';
+}
+
+ul>li>a{
+    text-decoration: none;
+}
+a>h4{
+    text-align: center;
+    margin: 80px;
+}
+
+ul>li>a{
+    text-decoration: none;
+}
+
+/****************************************************/
+
+.subtitle{
+    color: aquamarine;
+}
+.main{
+    text-align: center;
+    padding: 30px 80px;
+    display: block;
+}
+
+.imgd{
+    margin: 0 0 150px; 
+}
+.logo:hover{
+    opacity: 50%;
+}
+.main p{
+    text-align: center;
+    font-weight: lighter;
+    padding: 15px;
+    /*background:linear-gradient(rgb(0, 123, 153),rgb(146, 0, 224) 80%);*/
+    margin: 40px auto;
+    border-radius: 0px;
+    color: aquamarine;
+    width: auto;
+    font-size: 19px;
+}
+.main img{
+    margin: 0 9px;
+    width: auto;
+    height: 500px;
+    border-radius: 20%;
+    box-shadow: 1px 2px 20 blueviolet;
+}
+
+.main .imgd img{
+    width: auto;
+    height: 250px;
+    margin: 0 50px;
+    float: right;
+    rotate: -15deg;
+    
+    padding: 5px;
+}
+
+.main .imgd p{
+    color: black;
+    padding: 0 50px;
+    font-size: 18px;
+    width: 400px;
+    
+    text-align: right;
+    
+    
+}
+
+.main .imgd h1{
+    font-family: Chapbook;
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px;
+    color: rgb(50, 50, 50);
+    width: 330px;
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 15px 500px;
+}
+.main .imgd .iz{
+    float: left;
+    margin: 25px 250px;
+    rotate: 15deg;
+}
+
+.main .imgd .albums_a img{
+    margin: 30px 25px;
+    rotate: 0deg;
+    width: 240px;
+    height: auto;
+    float: inherit;
+}
+.albums_a{
+    margin: 35px;
+}
+
+.main .imgd .albums_b img{
+    margin: 30px 105px;
+    width: 300px;
+    height: auto;
+    float: inherit;
+    
+}
+.albums_b{
+    margin: 35px;
+}
+
+.main h2{
+    text-align: left;
+    padding: 5px;
+    color: #ffa0d9b3;
+    font-weight: lighter;
+    border: solid pink;
+    width: 220px;
+    font-weight: bold;
+    margin: 15px;
+}
+.sub1 h2{
+    color: aqua;
+    border: solid aqua;
+}
+
+.minim{
+    padding: 0 0 15px;
+}
+
+.sub2 h2{
+    color: rgb(51, 51, 51);
+    font-size: 32px;
+    text-decoration: underline;
+    font-family: Chapbook;
+}
+
+.minim img{
+    color: transparent;
+    text-decoration: none;
+    width: 250px;
+    height: auto;
+    margin: 80px 115px;
+    transition: all 0.5s ease;
+}
+.minim img:hover{
+    opacity: 20%;
+    color: black;
+}
+
+.minim p{
+    color: black;
+    
+    padding: 0 20px 35px 0px;
+    margin: 10px 350px;
+    font-weight: normal;
+    text-shadow: 4px 1px 18px rgb(235, 190, 255);
+}
+
+.main_content{
+    margin: 0 400px;
+}
+.main_content img{
+    height: 500px;
+    width: auto;
+}
+.main_content h2{
+ margin: 0 0 10px;   
+}
+.main_content h1{
+    text-align: center;
+    margin: 0 0 50px;
+}
+.main_content .imgd img{
+    width: 450px;
+    height: auto;
+    
+    
+}
+.main_content .imgd p{
+    margin: 0 15px 80px;
+}
+
+.main_content .imgd .right{
+    margin: 25px;
+    float: right;
+}
+.main_content .imgd .left{
+    float: left;
+    margin: 15px;
+}
+
+
+
+/****************************************************************************************/
+
+
+.minim2{
+    box-sizing: border-box;
+    position: fixed;
+    
+}
+.minim2 ul li a h4{
+    color: transparent;
+    text-decoration: none;
+    width: 200px;
+    height: 80px;
+    margin: 15px auto;
+    margin-left: 1;
+    
+}
+.minim2 .home{
+    background-image: url(../icons/icon_home.svg);
+    transition: all 0.5s ease;
+}
+
+.minim2 .home:hover{
+    background-image: url(../icons/icon_home_op.svg);
+
+}
+
+.minim2 .hob{
+    background-image: url(../icons/icon_hobbies.svg);
+    transition: all 0.5s ease;
+}
+.minim2 .hob:hover{
+    background-image: url(../icons/icon_hobbies2_op.svg);
+}
+
+.minim2 .gust{
+    background-image: url(../icons/icon_gustos.svg);
+    transition: all 0.5s ease;
+}
+.minim2 .gust:hover{
+    background-image: url(../icons/icon_gustos_op.svg);
+}
+
+.minim2 .ent{
+    background-image: url(../icons/icon_entorno.svg);
+    transition: all 0.5s ease;
+}
+.minim2 .ent:hover{
+    background-image: url(../icons/icon_entorno_op.svg);
+}
+
+.minim2 .fr{
+    background-image: url(../icons/icon_friend.svg);
+    transition: all 0.5s ease;
+}
+
+.minim2 .fr:hover{
+    background-image: url(../icons/icon_fr_op.svg);
+}
+
+.minim2 .msct{
+    background-image: url(../icons/icon_masct.svg);
+    transition: all 0.5 ease;
+}
+
+.minim2 .msct:hover{
+    background-image: url(../icons/icon_masct_op.svg);
+}
+
+.minim2 .back{
+    background-image: url(../icons/back.svg);
+    transition: all 0.5s ease;
+}
+
+.minim2 .back:hover{
+    background-image: url(../icons/back_op.svg);
+}
+
+/*******************  ***************************************/
+
+/*.minim ul li a h4:hover{
+    background-image: url(../icons/icon_entorno.svg);
+    color: black;
+}*/
+
+.sub3 h2{
+    color: rgb(54, 255, 117);
+    border: solid rgb(80, 255, 165);
+}
